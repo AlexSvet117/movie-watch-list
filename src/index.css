@@ -3,6 +3,11 @@
   background-color: #f9f6ee;
 }
 
+.custom-badge-position{
+  top: 0.3rem;
+  left: 0.7rem;
+}
+
 .pulse {
   animation: pulse 2s infinite;
 }
