@@ -28,7 +28,7 @@ function App() {
     )} // adding new movie to a new array
 
     const removeMovie = (id) => {
-      setMovies((prev) => (prev.filter((movie) => {movie.id !==id})))
+      setMovies((prev) => prev.filter((movie) => {movie.id !==id}))
     }
 
 
